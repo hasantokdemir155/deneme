@@ -1,0 +1,19 @@
+{
+        "ajax": "../php/join.php",
+        "table": "#example",
+        "fields": [ {
+                "label": "First name:",
+                "name": "users.first_name"
+            }, {
+                "label": "Last name:",
+                "name": "users.last_name"
+            }, {
+                "label": "Phone #:",
+                "name": "users.phone"
+            }, {
+                "label": "Site:",
+                "name": "users.site",
+                "type": "select"
+            }
+        ]
+    }
